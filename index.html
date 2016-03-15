@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery DOM Manipulation</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="todoApp">
+    <h1>Todos</h1>
+      <form id="todoForm">
+        <input id="todoItem" type="text" />
+      </form>
+      <ul id="filters">
+        <li id="itemsLeft">0 items left</li>
+        <li id="filter">
+          <ul>
+            <li><button id="all">All</button></li>
+            <li><button id="active">Active</button></li>
+            <li><button id="completed">Completed</button></li>
+          </ul>
+        </li>
+        <li><a id="clearCompleted" href="#">Clear Completed</a>
+      </ul> 
+      <ul id="todoItems">
+        
+      </ul>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
